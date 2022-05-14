@@ -1,4 +1,5 @@
 package com.hit.sz.application;
 
-public class Subscriber {
+public interface Subscriber {
+    public void update();
 }

@@ -50,10 +50,6 @@ public class ImageManager {
     public static Bitmap PROP_BULLET_IMAGE = BitmapFactory.decodeFile("prop_bullet.jpg");
     public static Bitmap PROP_IMMUNE_IMAGE = BitmapFactory.decodeFile("prop_immune.jpg");
 
-    public static Context context = null;
-    public void setImageManager(Context context){
-        ImageManager.context = context;
-    }
 
     static {
         try {
